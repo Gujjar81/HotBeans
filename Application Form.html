@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <link rel="icon" type="image/x-icon" href="image/logo.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+        </style>
+    
+        <style>
+             
+            .applicationform{
+                padding-top: 30px;
+                margin-left: 250px;
+                margin-top: 50px;
+                border: 2px;
+            }
+            .lblfname{
+                font-size: 30px;
+                margin-left: 30px;
+            }
+            .fname{
+                padding-top: 10px;
+                padding-right: 30px;
+                margin-left: 60px;
+            }
+            .lbllname{
+                font-size: 30px;
+                margin-left: 30px;
+            }
+            .lname{
+                padding-top: 10px;
+                padding-right: 30px;
+                margin-left: 60px;
+            }
+            .lbldob{
+                font-size: 25px;
+                margin-left: 30px;
+            }
+            .dob{
+                padding-top: 10px;
+                padding-left: 50px;
+                margin-left: 105px;
+            }
+            .lblemail{
+                font-size: 30px;
+                margin-left: 30px;
+            }
+            .email{
+                padding-top: 10px;
+                padding-right: 30px;
+                margin-left: 98px;
+            }
+            .lblphnum{
+                font-size: 21px;
+                margin-left: 30px;
+            }
+            .phnum{
+                padding-top: 10px;
+                padding-right: 30px;
+                margin-left: 65px;
+            }
+            .lbladdress{
+                font-size: 30px;
+                margin-left: 30px;
+            }
+            .address{
+                padding-top: 10px;
+                padding-right: 30px;
+                margin-left: 98px;
+            }
+            .lblcv{
+                font-size: 25px;
+                margin-left: 30px;
+            }
+            .cv{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                margin-left: 87px;
+            }
+            .submitbutton{
+                padding: 12px;
+                padding-left: 30px;
+                padding-right: 30px;
+                background-color: #3A73B3;
+                color: white;
+                text-decoration: none;
+                border: none;
+                float: right;
+                margin-right:  250px;
+                margin-top: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="containerF">
+            
+            <div class="header">
+            
+           <a href="index.html" class="logo"><img src="image/logo.png" alt="Company's logo"  width="130" height="100"></a>
+           <a href="Jobs.html" class="button1">Jobs</a>
+           <a href="Courses.html" class="button1">Courses</a>
+           <a href="Our team.html" class="button1">Our team</a>      
+            
+            </div>
+        
+        <div class="Ap-content-1">
+            
+            <h1>Application Form</h1>
+            <h3>Fill this form to apply for this job</h3>
+            
+        </div>
+        
+        <div class="Ap-content-2">
+            
+            
+            <form class="applicationform" action="index.html" method="post" style="border: 1px solid black; width: 700px; height: 450px;">
+                    
+                    <p>
+                        <label for="firstname" class="lblfname">First Name</label>
+                        <input type="text" name="firstname" id="firstname" class="fname">
+                    </p>
+                    
+                    <p>
+                        <label for="lastname" class="lbllname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" class="lname">
+                    </p>
+                    
+                    <p>
+                        <label for="dateofbirth" class="lbldob">Date of Birth</label>
+                        <input type="date" name="dateofbirth" id="dateofbirth" class="dob">
+                    </p>
+                    
+                    <p>
+                        <label for="email" class="lblemail">Email....</label>
+                        <input type="text" name="email" id="email" class="email">
+                    </p>
+                    
+                    <p>
+                        <label for="phonenumber" class="lblphnum">Phone Number</label>
+                        <input type="text" name="phonenumber" id="phonenumber" class="phnum">
+                    </p>
+                    
+                    <p>
+                        <label for="address" class="lbladdress">Address</label>
+                        <input type="text" name="address" id="address" class="address">
+                    </p>
+                    
+                    <p>
+                        <label for="cv" class="lblcv">Upload CV</label>
+                        <input type="file" name="cv" id="cv" class="cv" style="border:1px solid black;">
+                    </p>
+                    
+                    <input type="submit" value="submit" class="submitbutton">
+                    
+                </form>
+                
+            
+            
+        </div>
+        
+        <div class="footer">
+            
+            <div class="social-media">
+                
+                    <a href="https://www.facebook.com/"><img src="image/facebook.png" alt="facebook logo" style="width: 50px; height: 50px; margin-right: 20px;"></a>
+                    <a href="https://twitter.com/"><img src="image/twitter.png" alt="twitter logo" style="width: 50px; height: 50px; margin-right: 20px;"></a>
+                    <a href="https://linkedin.com/"><img src="image/linkedin.jpg" alt="linkedin logo" style="width: 50px; height: 50px;"></a>
+                
+            </div>
+            
+            <img class="ftlogo" src="image/logo.png" alt="Company's logo"  width="130" height="100">
+            <p class="copyright">Copyright &copy; 2023</p>
+            
+        </div>
+            
+        </div>
+        
+    </body>
+</html>
